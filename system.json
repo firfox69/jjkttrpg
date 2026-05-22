@@ -14,5 +14,9 @@
             "cursed_technique": {}
         }
     },
-    "esmodules": ["modules/data-models.mjs"]
+    "esmodules": [
+        "modules/data-models.mjs", 
+        "modules/actor.mjs", 
+        "modules/main.mjs"
+    ]
 }

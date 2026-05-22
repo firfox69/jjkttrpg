@@ -4,6 +4,8 @@ const {
    SchemaField, NumberField, StringField, EmbeddedDataField, ArrayField
 } = foundry.data.fields;
 
+/** Character Models */
+
 class CharacterData extends foundry.abstract.TypeDataModel {
     static defineSchema() {
         return {
@@ -37,7 +39,7 @@ function substatField() {
         bonus: new NumberField({integer: true, initial: 0})
     }
 }
-class SorcererData extends CharacterData {
+export class SorcererData extends CharacterData {
     static defineSchema() {
         return {
             ...super.defineSchema(),
@@ -96,6 +98,8 @@ class SorcererData extends CharacterData {
         }
     }
 }
+
+/** Item Models */
 
 class ItemData extends foundry.abstract.TypeDataModel {
     static defineSchema() {
