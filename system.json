@@ -1,0 +1,18 @@
+{
+    "id": "jjkttrpg",
+    "title": "Jujutsu Kaisen: Will of the Cursed TTRPG",
+    "description": "",
+    "version": "0.1",
+    "documentTypes": {
+        "Actor": {
+            "character": {}
+        },
+        "Item": {
+            "equipment": {},
+            "xp_abilities": {},
+            "jujutsu_skills": {},
+            "cursed_technique": {}
+        }
+    },
+    "esmodules": ["modules/data-models.mjs"]
+}
